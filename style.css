@@ -1,0 +1,237 @@
+body{
+    background-color: brown; font-family: Arial, Helvetica, sans-serif;
+    margin;0;
+    padding: 0;
+}
+header {
+    background-color: rgb(25, 10, 39);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+h1 {
+    color: hsl(218, 83%, 77%);
+    text-transform: capitalize;
+}
+.profile {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+
+}
+h2 {
+    color: black;
+    text-transform: capitalize;
+
+}
+p {
+    font-size: 18px;
+    color: aquamarine;
+    font-weight: bold;
+
+}
+ul { 
+    font-size: 18px;
+    color: aquamarine;
+    font-weight: bold;
+}
+button {
+    background-color: rgb(32, 32, 40);
+    color: aliceblue;
+    padding: 10px 20px;
+    border-radius: 8px
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+
+}
+button:hover {
+    background-color: rgb(6, 6, 93);
+}
+.profile {
+    width: 80%;
+    margin: auto;
+    padding: 20px; 
+    text-align: center;
+}
+.profile img {
+    border-radius: 50
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 3px solid black;
+}
+button {background-color: black;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 10px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    transition: 0.3s;
+}
+button:hover {
+    background-color: rgb(187, 187, 202);
+    color: black;
+    border: 2px solid black;
+    transform: scale(1.1);
+    
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+ul li {
+    font-size: 18px;
+    color: lightgreen;
+    margin: 10px 0;
+}
+.contact,.profile {
+    margin-bottom: 40px;
+    
+}
+.navbar {
+    background-color: black;
+    padding: 15px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.navbar ul li a:hover {
+    color: yellow;
+}
+,.profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.btn-group {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 15px;
+}
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;=\V, VC
+    position: fixed;
+    margin-top: 30px;
+}
+html {scroll-behavior: smooth;}
+.social {
+    margin-top: 15px;
+}
+
+.social a {
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.social i {
+    font-size: 30px;
+    color: white;
+}
+
+.social i:hover {
+    color: yellow;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+footer p {
+    color : white;
+    font-size: 16px;}
+footer p:hover {
+    color: yellow;}
+    .projects {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.project-card {
+    background-color: black;
+    color: white;
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 10px rgba(255,255,255,0.4);
+}
+
+.project-card h3 {
+    color: yellow;
+}
+
+.project-card button {
+    margin-top: 10px;
+}
+.projects {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.projects h2 {
+    font-size: 32px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.project-card {
+    background-color: black;
+    color: white;
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 10px rgba(255,255,255,0.4);
+}
+
+.project-card h3 {
+    color: yellow;
+}
+
+.project-card button {
+    margin-top: 10px;
+    background-color: yellow;
+    color: black;
+    font-weight: bold;
+}
+
+.project-card button:hover {
+    background-color: white;
+    color: black;
+}
+@media (max-width:600px) {
+    .navbar ul li {
+        display: block;
+        margin: 10px 0;
+    }
+    .btn-group {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .project-card{width: 100%;}
+}
+
+
